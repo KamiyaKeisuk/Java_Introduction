@@ -9,7 +9,10 @@ public class test04 {
 	    }
 	    for (int i = 11; i < 20; i++) {
 	    	if((aray[i] = num += 5) % 2 == 0) {
-	    		System.out.print(aray[i] + ",");
+	    		System.out.print(aray[i]);
+	    		if(aray[i] < 90) {
+	    			System.out.print(",");
+	    	}
 	    	}
 	    }
 	}
