@@ -5,7 +5,7 @@ public class test03 {
 		for (int i : aray) {
             System.out.print(i);
             if (i < 10) {
-            	System.out.print(", ");
+            	System.out.print(",");
             }
 		}
 	}
